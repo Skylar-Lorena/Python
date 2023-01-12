@@ -19,3 +19,13 @@ if height < 160:
     print("You are really short")
 else:
     print("You are really tall")
+    #  if we have more than one condition to check for? We can use elif, 
+    #  which will allow us to check for multiple conditions
+    height = 68 # inches
+if height > 70 :
+    print("You are really tall")
+elif height > 60:
+    print("You are of average height")
+
+else:
+    print("You are really short")
