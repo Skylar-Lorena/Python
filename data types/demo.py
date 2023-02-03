@@ -46,3 +46,7 @@ print(dict.values())
 name = "Emily"
 age = 28
 print(f"My name is {name} and my age is {age}")
+
+# Typecasting 
+# Type casting is a way of converting one datatype to another
+print("My name is" +" " + name + " "+ "and my age is " + str(age))
