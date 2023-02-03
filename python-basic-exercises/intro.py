@@ -42,6 +42,11 @@ print(amount_payable)
 time_frame= car_loan/amount_payable
 print(time_frame)
 
+# Mad Libs
+# Create a mad libs kind of program that allows users to input word descriptions such as a "noun", a "verb", an 
+# "adjective" etc and create then display a funny story from the users input
+
+
 
 
 
