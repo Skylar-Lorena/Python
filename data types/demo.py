@@ -50,3 +50,10 @@ print(f"My name is {name} and my age is {age}")
 # Typecasting 
 # Type casting is a way of converting one datatype to another
 print("My name is" +" " + name + " "+ "and my age is " + str(age))
+
+# Slicing
+# Slicing is the act of getting subsets or parts of strings, lists or tuples.
+# we can use the slice() method to get the first 5 characters of a string
+print(name[0:3])
+numbers= [11,12,13,14,15,16,17,18,19,20,21]
+print(numbers[0:5])
