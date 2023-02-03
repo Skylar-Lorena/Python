@@ -57,3 +57,6 @@ print("My name is" +" " + name + " "+ "and my age is " + str(age))
 print(name[0:3])
 numbers= [11,12,13,14,15,16,17,18,19,20,21]
 print(numbers[0:5])
+# A slice statement is enclosed with [] square brackets and has two parts first is the 
+# position where to start slicing and second is the position to stop but not including that position.
+
