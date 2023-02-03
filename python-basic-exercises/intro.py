@@ -1,4 +1,6 @@
 # Python Basics Exercises
+import random
+import this
 # BMI calculator: Create a program in the Python shell that allows you to 
 # calculate the body mass index of the person. This is calculated by dividing 
 # a person's weight by their height in meters squared.
@@ -26,6 +28,19 @@ print (circumference)
 print("What's your age?")
 age= input()
 print("You were born in", 2023-int(age))
+
+# Car Loans
+# Create a program in the Python shell that will calculate how long it would take a person to pay off 
+# a car loan of $150,000 if the person only spends 25% of his salary of $15,000 to pay the loan assuming
+# no interest is charged.
+car_loan = 150000
+salary = 150000
+interest_rate = 0.25
+amount_payable= salary*interest_rate
+print(amount_payable)
+
+time_frame= car_loan/amount_payable
+print(time_frame)
 
 
 
