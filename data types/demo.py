@@ -41,3 +41,8 @@ print(dict.keys())
 # we can use the values() method to get the values of the dictionary
 print(dict.values())
 
+# String Formatting
+# This is a way of embedding variables into strings. 
+name = "Emily"
+age = 28
+print(f"My name is {name} and my age is {age}")
