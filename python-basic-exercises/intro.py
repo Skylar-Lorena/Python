@@ -45,7 +45,13 @@ print(time_frame)
 # Mad Libs
 # Create a mad libs kind of program that allows users to input word descriptions such as a "noun", a "verb", an 
 # "adjective" etc and create then display a funny story from the users input
-
+print("What's your favourite song?")
+song= input()
+print("Who's your favorite artiste?")
+artiste= input()
+print("When do you rest?")
+rest_date= input()
+print(f"On {rest_date} I really enjoy listening to {song} by {artiste}. It's always on repeat.")
 
 
 
