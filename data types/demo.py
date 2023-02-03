@@ -3,6 +3,9 @@
 
 list= () 
 # "parentheses" tuple object that only contains unique values
+# Tuples values cannot be changed once created. They are immutable
+# We can create tuples using parentheses or the tuple() function
+
 list_a = []
 list_b = [1,2,3,4,5]
 list_c = ["Emily",2,3,4,"windows"]
