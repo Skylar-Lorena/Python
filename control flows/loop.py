@@ -4,3 +4,12 @@
 numbers = [1, 2, 3, 4, 5]
 for number in numbers:
     print(number)
+
+#Range()
+# A range is a way to get a list of numbers from start to end
+numbers = range(1, 10)
+print(numbers)
+for number in range(1,7):
+    print(number)
+# The range function takes up two parameters: start and end
+
