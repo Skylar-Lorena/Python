@@ -25,3 +25,19 @@ print(list_b)
 list_d = [99,28, 22, 768, 100]
 list_d.sort()
 print(list_d)
+
+#dictionary
+# dictionaries store collections of many values of different types. 
+# we can create a dictionary using parentheses or the dictionary() function
+dict = {}
+dict["name"] = "Emily"
+dict["age"] = 28
+dict["height"] = 1.75
+dict["weight"] = 70
+print(dict)
+# Indexes in the dictionary are called keys while the values are called values
+# we can use the keys() method to get the keys of the dictionary
+print(dict.keys())
+# we can use the values() method to get the values of the dictionary
+print(dict.values())
+
