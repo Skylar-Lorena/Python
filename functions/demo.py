@@ -23,4 +23,10 @@ def get_age_num():
     except ValueError:
         return "That was not a valid input"
     
-    
+# Programmer Errors
+# There are some error that are caused by programmers themselves. These errors should not be handled but fixed.
+# 
+# IndentationError - when you fail to separate code blocks properly.
+# NameError - when you call an undefined variable function or method.
+# TypeError - when you try and perform operations on unrelated types .
+# 
