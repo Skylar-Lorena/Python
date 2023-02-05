@@ -70,6 +70,26 @@ for i in range(1,101):
     elif i%5==0:
         print("Buzz")
         
+# Reverse String
+# Write a program that takes a string as input and reverses it.
+# pseudocode
+# string = input("Enter a string: ")
+# string = string[::-1]
+# print(string)
+print("Enter a string: ")
+word= input()
+print(word[::-1])
+print("Enter a string: ")
+word= input()
+print(word[::-1])
+
+
+
+
+
+
+
+        
 
 
 
