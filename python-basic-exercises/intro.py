@@ -53,6 +53,24 @@ print("When do you rest?")
 rest_date= input()
 print(f"On {rest_date} I really enjoy listening to {song} by {artiste}. It's always on repeat.")
 
+# Fizz Buzz
+# Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of 
+# the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five 
+# print “FizzBuzz”.
+# pseudocode
+# print(range[1,101])
+# if num%3 =0 print("Fizz")
+# if num%5 =0 print("Buzz")
+# if num%5 && num%3 == 0: print("FizzBuzz")
+# solution
+print(range[1,101])
+if num%3 == 0: print("Fizz")
+if num%5 == 0: print("Buzz")
+if num%5 and num%3 == 0: print("FizzBuzz")
+
+
+
+
 
 
 
