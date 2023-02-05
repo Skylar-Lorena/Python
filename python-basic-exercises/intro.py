@@ -62,11 +62,29 @@ print(f"On {rest_date} I really enjoy listening to {song} by {artiste}. It's alw
 # if num%3 =0 print("Fizz")
 # if num%5 =0 print("Buzz")
 # if num%5 && num%3 == 0: print("FizzBuzz")
-# solution
-print(range[1,101])
-if num%3 == 0: print("Fizz")
-if num%5 == 0: print("Buzz")
-if num%5 and num%3 == 0: print("FizzBuzz")
+for i in range(1,101):
+    if i%3==0 and i%5==0:
+        print("FizzBuzz")
+    elif i%3==0:
+        print("Fizz")
+    elif i%5==0:
+        print("Buzz")
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
